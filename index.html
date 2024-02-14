@@ -1,78 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta name="description" content="Main page for the github">
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=7">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>my-main-page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
 </head>
 <body>
 
-<h1>Hi there</h1>
-<h1>I'm B. abhilash</h1>
-<h1>I'm Web Developer.</h1>
+  <div id="wrapper">
+    <div class="image-box">
+      <img src="./images/image-product-desktop.jpg" alt="" srcset="">
+    </div>
+    <div class="detail-box">
+      <span class="perfume">Perfume</span>
 
-<table id="customers">
-  <tr>
-    <th>Project Name</th>
-    <th>Language Use</th>
-    <th>Links</th>
-  </tr>
-  <tr>
-    <td>Portfolio-challenge</td>
-    <td>HTML/CSS</td>
-    <td><a href="https://abhilashbag.github.io/portfolio/" target="_blank" rel="noopener noreferrer">See</a></td>
-  </tr>
-  <tr>
-    <td>Result Card</td>
-    <td>HTML/CSS</td>
-    <td><a href="https://result-card-solution.netlify.app/" target="_blank" rel="noopener noreferrer">See</a></td>
-  </tr>
-  <tr>
-    <td>Portfolio-check</td>
-    <td>HTML/CSS</td>
-    <td><a href="https://portfolio-solution.netlify.app/" target="_blank" rel="noopener noreferrer">See</a></td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Königlich Essen</td>
-    <td>Philip Cramer</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>Simon Crowther</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Paris spécialités</td>
-    <td>Marie Bertrand</td>
-    <td>France</td>
-  </tr>
-</table>
+      <h1 class="Big-title">Gabrielle Essence Eau De Parfum</h1>
+      <p class="para">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      <div class="price-tag">
 
+        <span class="price"> $149.99</span>
+        <span class="before-price">$169.99</span>
+      </div>
+      <Button class="btn"><span><img src="./images/icon-cart.svg" alt="" srcset=""></span>Add to Cart</Button>
+      
+    </div>
+  </div>
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
 </body>
 </html>
-
-
